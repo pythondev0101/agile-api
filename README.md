@@ -13,6 +13,11 @@ Install the pipenv and requirements.
 pip3 install pipenv
 pipenv install -r requirements.txt
 ```
+Create database(mysql)
+```sh
+mysql -u root -p
+create database db_api;
+```
 Run the application.
 ```sh
 flask run
