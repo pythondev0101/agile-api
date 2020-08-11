@@ -20,7 +20,7 @@ create database db_api;
 ```
 Run the application.
 ```sh
-flask run
+python3 api.py
 ```
 
 Use username=admin and password=password for authentication
